@@ -2,6 +2,14 @@ header {
     background-image: url("Assets/Hero-bg.png");
 }
 
+.normal-text {
+    color: #25243280;
+}
+
+.title-font {
+    font-size: 2em;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -21,7 +29,7 @@ header {
 }
 
 .body-margin  {
-    margin: 100px 150px 100px 150px;
+    margin: 100px 120px 100px 120px;
 }
 
 .main-btn-base {
@@ -51,3 +59,16 @@ header {
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* Action */
+.action {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.action-img img {
+    border-radius: 10%;
+}
+
+/* Productive Users Section */
