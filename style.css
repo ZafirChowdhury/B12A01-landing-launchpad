@@ -7,6 +7,10 @@ header {
     width: 100%;
 }
 
+body {
+    background-color: #F5F8FF;
+}
+
 .section-container {
     max-width: 1200px;
     margin: 70px auto;
@@ -86,6 +90,9 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    background-color: #FFFFFF;
+    padding: 50px;
+    border-radius: 10px;
 }
 
 .action-img img {
@@ -158,9 +165,33 @@ footer ul {
     display: flex;
     gap: 30px;
     list-style: none;
+    justify-content: space-evenly;
 }
 
 footer a {
     color: #8987A1;
     text-decoration: none;
+}
+
+/* Review Section */ 
+.user-review {
+    
+}
+
+.user-review-box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.review {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+
+.reviewer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
