@@ -51,6 +51,15 @@ header {
     border-radius: 10px;
     
     border: none;
+
+    transition: all 0.3 ease;
+}
+
+.main-btn-base:hover {
+    background-color: #2E28CC;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(78, 71, 255, 0.4);
+    cursor: pointer;
 }
 
 .sign-up-button {
@@ -111,7 +120,6 @@ header {
     justify-content: space-between;
     gap: 60px;
     padding: 60px 120px;
-    text-align: center;
     align-items: center;
 }
 
@@ -134,4 +142,25 @@ header {
 
 .contact-form-box button {
     padding: 20px 120px;
+}
+
+footer {
+    text-align: center;
+    padding: 0px 270px;
+}
+
+footer h2 {
+    color: #4E47FF;
+    font-size: 3.5em;
+}
+
+footer ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+footer a {
+    color: #8987A1;
+    text-decoration: none;
 }
